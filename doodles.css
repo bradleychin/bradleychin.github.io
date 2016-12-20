@@ -1,0 +1,24 @@
+.bodycell:nth-child(odd) {
+  background: hsl(0, 0%, 95%);
+}
+.bodycell:nth-child(even) {
+  background: hsl(0, 0%, 85%);
+}
+.wrapper {
+  background: hsl(0, 0%, 95%);
+}
+.bodycell {
+  padding: 30px 20%;
+}
+.tag {
+  border: solid 2px black;
+  border-radius: 3px;
+  background: grey;
+  color: white;
+  padding: 1px;
+  margin: 1px;
+}
+.title a{
+  color: white;
+  text-decoration: none;
+}

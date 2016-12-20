@@ -1,0 +1,46 @@
+body {
+    background: hsl(0, 0%, 95%);
+    font-family: 'Muli', sans-serif;
+}
+
+.container {
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.container h1 {
+  color: crimson;
+  font-size: 6.2em;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.container h2 {
+  color: deeppink;
+  font-size: 4.4em;
+  margin: 0;
+}
+
+.container h3 {
+  color: mediumorchid;
+  font-size: 1.72em;
+  margin: 0;
+}
+
+.container h4 {
+  color: skyblue;
+  font-size: 1.0156em;
+  margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    font-size: 120%;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .container {
+    font-size: 150%;
+  }
+}
