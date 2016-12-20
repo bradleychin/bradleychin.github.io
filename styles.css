@@ -1,0 +1,84 @@
+*, *:before, *:after {
+ box-sizing: border-box; }
+
+img { max-width: 100%; }
+
+body{ font-size: 100%; margin: 0; padding: 0;}
+
+/*Header */
+header { width: 100%; background-color: black;}
+
+/*title*/
+.title {
+	width:100%;
+	margin:0;  padding-left: 20px;
+	color: white; background-color: black;
+}
+/*wrapper*/
+.wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+/*Footer*/
+footer {
+	width: 100%;
+	border:1px solid black;
+	background-color: black;
+	color: white;
+	padding-left: 20px;
+}
+footer p {
+  margin: 0;
+  margin-top: 5px;
+}
+footer a {
+  color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  margin-left: 8px;
+}
+footer a:hover {
+  color: crimson;
+}
+
+/*Positioning of Header Container and Footer*/
+header { position: fixed; top:0; z-index: 3;}
+
+footer{ position: fixed; bottom: 0; left: 0; z-index: 3;}
+
+/*Navigation - refer to responsive-nav.css*/
+
+/*Social Navigation*/
+.icon {
+  max-height: 25px;
+}
+.social-nav {
+  margin-right: 10px;
+  margin-top: 8px;
+  position: relative;
+	display: block;
+  list-style: none;
+}
+.social-nav li {
+ 	display: block;
+  	list-style: none;
+   	float: left;
+  	margin: 0;
+    padding: 1px;
+}
+.icon {
+	-webkit-filter: grayscale(1);
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+.icon:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1.2,1.2);
+}
+
+/*footer*/
+.left-footer {
+  float: left;
+}
+.right-footer {
+  float: right;
+}
