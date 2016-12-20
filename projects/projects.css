@@ -8,8 +8,10 @@
   background: hsl(0, 0%, 95%);
 }
 .bodycell {
-  padding: 30px 20%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
 .tag {
   border: solid 2px black;
   border-radius: 3px;
