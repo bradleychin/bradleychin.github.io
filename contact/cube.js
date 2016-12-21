@@ -28,3 +28,17 @@ function rotateUp() {
     upButton.innerHTML = "Pause";
   }
 }
+
+function hide(){
+  var page1 = document.getElementById('page-1');
+  var page2 = document.getElementById('page-2');
+  page1.classList.add("hide");
+  page2.classList.remove("hide");
+}
+function hide2(){
+  var page1 = document.getElementById('page-1');
+  var page2 = document.getElementById('page-2');
+  page2.classList.add("hide");
+  page1.classList.remove("hide");
+  alert("hide function called");
+}

@@ -31,30 +31,46 @@
 </header>
 
 <!--main content-->
-<div class="wrapper">
-	<div id="wrap">
-	<div id="cube">
-		<div class="front"><a href="https://www.linkedin.com/in/bradley-chin-75542672"><img class="boxicon" src="../icons/linkedinsq.png" alt="link to linkedin"></a></div>
-		<div class="back"><a href="https://twitter.com/bradleyschin"><img class="boxicon" src="../icons/twittersq.png" alt="link to twitter"></a></div>
-		<div class="top"><img class="boxicon" src="../icons/facebooksq.png" alt="link to facebook"></div>
-		<div class="bottom"><a href="https://www.instagram.com/bradschin/"><img class="boxicon" src="../icons/instagramsq.png" alt="link to instagram"></a></div>
-		<div class="left"><a href="https://plus.google.com/112266935193619683957"><img class="boxicon" src="../icons/googlesq.png" alt="link to google plus"></a></div>
-		<div class="right"><a href="https://github.com/danksteezy"><img class="boxicon" src="../icons/github.png" alt="link to github"></a></div>
+<div id="page-1">
+	<div class="wrapper">
+		<div id="wrap">
+			<div id="cube">
+				<div class="front"><a href="https://www.linkedin.com/in/bradley-chin-75542672"><img class="boxicon" src="../icons/linkedinsq.png" alt="link to linkedin"></a></div>
+				<div class="back"><a href="https://twitter.com/bradleyschin"><img class="boxicon" src="../icons/twittersq.png" alt="link to twitter"></a></div>
+				<div class="top"><img class="boxicon" src="../icons/facebooksq.png" alt="link to facebook"></div>
+				<div class="bottom"><a href="https://www.instagram.com/bradschin/"><img class="boxicon" src="../icons/instagramsq.png" alt="link to instagram"></a></div>
+				<div class="left"><a href="https://plus.google.com/112266935193619683957"><img class="boxicon" src="../icons/googlesq.png" alt="link to google plus"></a></div>
+				<div class="right"><a href="https://github.com/danksteezy"><img class="boxicon" src="../icons/github.png" alt="link to github"></a></div>
+			</div>
+		</div>
 	</div>
+	<div class="container">
+		<h3>Horizontal</h3>
+		<button id="sidewaysButton" type="button" name="button" onclick="rotateSideways();">Start</button>
+		<h3>Vertical</h3>
+		<button id="upButton" type="button" name="button" onclick="rotateUp();">Start</button>
+	</div>
+	<button id="hide" type="button" name="button" onclick="hide();">Contact</button>
 </div>
-</div>
-<div class="container">
-	<h3>Horizontal</h3>
-	<button id="sidewaysButton" type="button" name="button" onclick="rotateSideways();">Start</button>
-	<h3>Vertical</h3>
-	<button id="upButton" type="button" name="button" onclick="rotateUp();">Start</button>
+<div id="page-2" class="hide">
+	<div class="contactform">
+		<p>I would be happy to answer any question so please feel to drop a message.</p>
+		<form method="POST" action="http://formspree.io/bradschin@gmail.com">
+  	<p><label for="email">Email:</label></p>
+		<p><input type="email" name="email" placeholder="Your email"></p>
+		<p><label for="message">Message:</p>
+		<p><textarea name="message" placeholder="Your message"></textarea></p>
+  	<p><button type="submit">Send</button></p>
+	</form>
+	<button id="hide2" type="button" name="button" onclick="hide2();">Back</button>
+	</div>
 </div>
 <!--Footer-->
 <footer role="contentinfo">
-<div class="left-footer">
-	<p>&copy; 2016 Bradley Chin</p>
-	<a href="mailto:bradschin@gmail.com">bradschin@gmail.com</a>
-</div>
+	<div class="left-footer">
+		<p>&copy; 2016 Bradley Chin<a href="../privacypolicy.html">/ Privacy Policy</a></p>
+		<a href="mailto:bradschin@gmail.com">bradschin@gmail.com</a>
+	</div>
 <!-- Social Navigation-->
 <div class="right-footer">
 	<ul class="social-nav">

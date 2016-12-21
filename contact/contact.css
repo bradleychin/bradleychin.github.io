@@ -87,7 +87,6 @@
 .container {
   width: 150px;
   margin-left: 5%;
-  z-index: 2;
   text-align: center;
 }
 button {
@@ -102,4 +101,56 @@ button {
 }
 .container h3 {
   color: mediumorchid;
+}
+#page-1.hide {
+  display: none;
+}
+#page-2.hide {
+  display: none;
+}
+#page-2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 100%;
+  line-height: 1.4;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: hsl(0, 0%, 95%);
+}
+#page-2 textarea {
+  width: 90%;
+  height: 100px;
+}
+#page-2 label {
+  font-weight: bold;
+  color: crimson;
+}
+#page-2 p {
+  color: #e67e22;
+  font-size: 1.2em;
+}
+@media only screen and (min-width: 55em) {
+  #page-2 {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+@media only screen and (min-width: 75em) {
+  #page-2 {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+#hide2, #hide{
+  background-color: #2c3e50;
+  position: absolute;
+  bottom: 60px;
+  right: 10px;
+}
+@media only screen and (max-width: 30em) {
+  .container {
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+  }
 }
