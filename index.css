@@ -44,3 +44,17 @@ body {
     font-size: 150%;
   }
 }
+.container h1:hover, h2:hover, h3:hover, h4:hover {
+  -webkit-transform: rotateY(180deg);
+}
+.container h1 {
+  animation: flippingshit 2s linear;
+}
+@keyframes flippingshit{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
