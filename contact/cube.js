@@ -40,5 +40,4 @@ function hide2(){
   var page2 = document.getElementById('page-2');
   page2.classList.add("hide");
   page1.classList.remove("hide");
-  alert("hide function called");
 }
