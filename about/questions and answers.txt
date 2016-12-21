@@ -1,0 +1,59 @@
+1. How old are you
+
+26
+
+2. When were you born
+
+July 13, 1990
+
+3. What coding languages do you know
+
+HTML, CSS, PHP, Javascript and C++
+
+4. Where were you born
+
+Edmonton, Alberta, Canada
+
+5. What do you do
+
+I am a web developer and entrepreneur 
+
+6. What is your favourite food
+
+Laska
+
+7. What do you want to do
+
+To do good in a meaingful way - to help create a rich and happy life for people. Myself included 
+
+8. What is your favourite thing to do
+
+Exploring new things and ideas by reading, travelling, and listening to other people's stories
+
+9. What are your principles
+
+Honest intentions and unshakable integrity
+
+10. Why did you become a web developer
+
+I don't think it makes sense that the economy is suffering when we are one of the most educated generations yet. I believe it is our duty to do something about it, and not depend on big cooperations to provide for us. I belive we need to take the steps to create and plant the seeds for the future. I believe the potential of technology of the internet is still untapped, and its' potential is on a global scale. So I became a developer to learn and enable myself to take action and create a path for me to accomplish my goals. 
+
+11. What do you think is the recipe for success
+
+Hard work, dedication, perseverance, good people and a little luck.
+
+12. What do you do for fun
+
+Anything, it's always fun when you're in good company
+
+13. Hobbies
+
+Reading, Writing, Coding, Investing, Snowboarding, DJing
+
+Hi! My name is Brad and congragulations for making it this far. I made this website to showcase the different kinds of things I learned studying at the Southern Alberta Institute of Alberta (Fast-track Web Development Program).
+
+It was a lot of fun making this site, trying out ideas and the challenging myself. If any of this has intrigued you, please contact me at the email located on the footer. And if you have anymore questions...
+ 
+
+
+
