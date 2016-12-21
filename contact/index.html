@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="../responsive-nav.css">
 <link rel="stylesheet" href= "contact.css">
 <script src="../responsive-nav.js"></script>
+<script src="cube.js"></script>
 </head>
 
 <body>
@@ -31,13 +32,23 @@
 
 <!--main content-->
 <div class="wrapper">
-	<div class="bodycell">
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecjy4RFMqsQ3i8boUxm_z-u42SwZJ5u1m4somlaKKxxTVBaQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+	<div id="wrap">
+	<div id="cube">
+		<div class="front"><a href="https://www.linkedin.com/in/bradley-chin-75542672"><img class="boxicon" src="../icons/linkedinsq.png" alt="link to linkedin"></a></div>
+		<div class="back"><a href="https://twitter.com/bradleyschin"><img class="boxicon" src="../icons/twittersq.png" alt="link to twitter"></a></div>
+		<div class="top"><img class="boxicon" src="../icons/facebooksq.png" alt="link to facebook"></div>
+		<div class="bottom"><a href="https://www.instagram.com/bradschin/"><img class="boxicon" src="../icons/instagramsq.png" alt="link to instagram"></a></div>
+		<div class="left"><a href="https://plus.google.com/112266935193619683957"><img class="boxicon" src="../icons/googlesq.png" alt="link to google plus"></a></div>
+		<div class="right"><a href="https://github.com/danksteezy"><img class="boxicon" src="../icons/github.png" alt="link to github"></a></div>
 	</div>
-
 </div>
-
-
+</div>
+<div class="container">
+	<h3>Horizontal</h3>
+	<button id="sidewaysButton" type="button" name="button" onclick="rotateSideways();">Start</button>
+	<h3>Vertical</h3>
+	<button id="upButton" type="button" name="button" onclick="rotateUp();">Start</button>
+</div>
 <!--Footer-->
 <footer role="contentinfo">
 <div class="left-footer">

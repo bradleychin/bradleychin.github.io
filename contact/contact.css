@@ -1,0 +1,105 @@
+.wrapper{
+  position: relative;
+  top: 50%;
+  perspective: 800px;
+  perspective-origin: 50% 100px;
+  text-align: center;
+  transform-style: preserve-3d;
+  margin: 0 0;
+}
+#wrap {
+  padding-top: 100px;
+  text-align: center;
+  transform-style: preserve-3d;
+  margin: 0 auto;
+  height: 200px;
+  transform-origin: 0 bottom;
+}
+#cube {
+	position: relative;
+	width: 200px;
+	transform-style: preserve-3d;
+  margin: 0 auto;
+}
+#cube.rotatex{
+  animation: rotationx 20s infinite linear;
+}
+#cube.rotatex.pause{
+  animation-play-state: paused;
+}
+#wrap.rotatey{
+  animation: rotationy 20s infinite linear;
+}
+#wrap.rotatey.pause{
+  animation-play-state: paused;
+}
+
+#cube div{
+  height: 200px;
+  width: 200px;
+  border: 1px solid red;
+  position: absolute;
+  background-color: grey;
+  opacity: 0.9;
+}
+.back {
+	transform: translateZ(-100px) rotateX(180deg);
+}
+.right {
+	transform: rotateY(-270deg) translateX(100px);
+	transform-origin: top right;
+}
+.left {
+	transform: rotateY(270deg) translateX(-100px);
+	transform-origin: center left;
+}
+.top {
+	transform: rotateX(-270deg) translateY(-100px);
+	transform-origin: top center;
+}
+.bottom {
+	transform: rotateX(-90deg) translateY(100px);
+	transform-origin: bottom center;
+}
+.front {
+	transform: translateZ(100px);
+}
+
+@keyframes rotationx{
+	from {
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
+@keyframes rotationy{
+	from {
+		transform: rotateX(0deg);
+	}
+	to{
+		transform: rotateX(360deg);
+	}
+}
+.boxicon:hover {
+  transform: scale(1.3,1.3);
+}
+.container {
+  width: 150px;
+  margin-left: 5%;
+  z-index: 2;
+  text-align: center;
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.container h3 {
+  color: mediumorchid;
+}
