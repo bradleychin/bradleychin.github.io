@@ -1,0 +1,97 @@
+body {
+    background: hsl(0, 0%, 95%);
+    font-family: 'Muli', sans-serif;
+}
+.bodycell:nth-child(odd) {
+  background: hsl(0, 0%, 95%);
+}
+.bodycell:nth-child(even) {
+  background: hsl(0, 0%, 85%);
+}
+.wrapper {
+  background: hsl(0, 0%, 95%);
+}
+.bodycell {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.4;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.bodycell span {
+  color: #2d77d8;
+  font-size: 150%;
+}
+.bodycell input {
+  border: none;
+  color: crimson;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background: hsl(0, 0%, 95%);
+  font-size: 1.5em;
+}
+.bodycell input:hover {
+  background: black;
+  color: skyblue;
+}
+.bodycell h1 {
+  color: deeppink;
+}
+.bodycell h3, h4 {
+  color: mediumorchid;
+}
+#question {
+  font-size: 0.6em;
+}
+@media only screen and (min-width: 27.5em) {
+  #question {
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 55em) {
+  .wrapper {
+    padding-top: 80px;
+  }
+  .bodycell {
+    padding-right: 18%;
+    padding-left: 18%;
+  }
+  .bodycell p {
+    font-size: 1.5em;
+  }
+  .bodycell h1, h3 {
+
+    font-size: 3.4em;
+  }
+  .bodycell h4 {
+    font-size: 2.4em;
+  }
+  #question {
+    font-size: 1.5em;
+  }
+  .bodycell input {
+    font-size: 3.4em;
+  }
+}
+@media only screen and (min-width: 74em) {
+  .bodycell {
+    padding-right: 25%;
+    padding-left: 25%;
+  }
+  .bodycell p {
+    font-size: 1.5em;
+  }
+  .bodycell h1, h3 {
+    font-size: 4em;
+  }
+  .bodycell h4 {
+    font-size: 3.4em;
+  }
+  #question {
+    font-size: 1.8em;
+  }
+  .bodycell input {
+    font-size: 4em;
+  }
+}
